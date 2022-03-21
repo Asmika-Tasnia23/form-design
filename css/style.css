@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+}
+img{
+    max-width: 100%;
+
+}
+header{
+    background:#fd8700;
+
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+nav ul li a img{
+    width: 150px;
+
+}
+.formSection{
+    padding: 100px 0;
+   background-image: url(../images/coffee.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: auto;
+
+
+}
+.form-box{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+
+}
+h1{
+  font-size: 35px;
+  color:rgb(116, 175, 241);
+}
+p{
+    font-size: 16px;
+
+}
+form{
+    text-align: left;
+    margin-top: 30px;
+}
+input[type="text"],
+input[type=email],
+input[type="password"],
+input[type="file"]{
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid skyblue;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input:focus-visible{
+    outline: none;
+
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+    margin-right: 20px;
+
+}
+span{
+    display: block;
+    font-style: italic;
+    font-style: 20px;
+    font-size: 20px;
+}
+b label{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+
+}
+input[type="submit"]{
+    display: block;
+    padding:10px 30px ;
+    font-size: 18px;
+    background: skyblue;
+    border: 2px solid skyblue;
+    margin-top: 25px;
+    cursor: cell;
+}
+input[type="submit"]:hover{
+    background: transparent;
+}
+/* ::placeholder{
+    color: sandybrown;
+} */
+::selection{
+    background: sandybrown;
+}
+.hobbies{
+    display: flex;
+}
+
+
+
+
